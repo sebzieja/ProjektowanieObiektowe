@@ -29,7 +29,7 @@ public class Book implements IStorageObject {
         name = (Objects.requireNonNull(
                 params[1], "Name cannot be null"));
         year = (Objects.requireNonNull(
-                params[1], "Name cannot be null"));
+                params[2], "Name cannot be null"));
     }
 
     @Override

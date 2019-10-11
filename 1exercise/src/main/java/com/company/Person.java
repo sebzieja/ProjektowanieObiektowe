@@ -50,6 +50,6 @@ public class Person implements IStorageObject {
         name = (Objects.requireNonNull(
                 params[1], "Name cannot be null"));
         data = (Objects.requireNonNull(
-                params[1], "Name cannot be null"));
+                params[2], "Name cannot be null"));
     }
 }
