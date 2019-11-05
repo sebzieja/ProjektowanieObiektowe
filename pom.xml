@@ -12,6 +12,7 @@
     <modules>
         <module>1exercise</module>
         <module>2singleton</module>
+        <module>builder</module>
     </modules>
 
     <dependencies>
